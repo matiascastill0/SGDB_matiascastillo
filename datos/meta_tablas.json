@@ -1,0 +1,122 @@
+{
+    "empleados": {
+        "campos": [
+            "id",
+            "nombre",
+            "area"
+        ],
+        "clave": "id",
+        "tipo": "SEQ",
+        "vector": null
+    },
+    "ubicaciones": {
+        "campos": [
+            "id",
+            "nombre",
+            "coordenada"
+        ],
+        "clave": null,
+        "tipo": "RTREE",
+        "vector": "coordenada"
+    },
+    "clientes": {
+        "campos": [
+            "id",
+            "nombre",
+            "ciudad"
+        ],
+        "clave": "id",
+        "tipo": "SEQ",
+        "vector": null
+    },
+    "zonas": {
+        "campos": [
+            "nombre",
+            "coordenadas"
+        ],
+        "clave": null,
+        "tipo": "RTREE",
+        "vector": "coordenadas"
+    },
+    "notas": {
+        "campos": [
+            "matricula",
+            "estudiante",
+            "nota"
+        ],
+        "clave": "matricula",
+        "tipo": "BTREE",
+        "vector": null
+    },
+    "usuarios": {
+        "campos": [
+            "dni",
+            "nombre",
+            "correo"
+        ],
+        "clave": "dni",
+        "tipo": "HASH",
+        "vector": null
+    },
+    "productos": {
+        "campos": [
+            "codigo",
+            "nombre",
+            "precio"
+        ],
+        "clave": "codigo",
+        "tipo": "ISAM",
+        "vector": null
+    },
+    "empleados1": {
+        "campos": [
+            "id",
+            "nombre",
+            "area"
+        ],
+        "clave": "id",
+        "tipo": "SEQ",
+        "vector": null
+    },
+    "ciudades": {
+        "campos": [
+            "id",
+            "nombre",
+            "coords"
+        ],
+        "clave": null,
+        "tipo": "RTREE",
+        "vector": "coords"
+    },
+    "ciudades1": {
+        "campos": [
+            "id",
+            "nombre",
+            "pais",
+            "coordenadas"
+        ],
+        "clave": "id",
+        "tipo": "RTREE",
+        "vector": "coordenadas"
+    },
+    "lugares": {
+        "campos": [
+            "id",
+            "nombre",
+            "coordenadas"
+        ],
+        "clave": null,
+        "tipo": "RTREE",
+        "vector": "coordenadas"
+    },
+    "empleados_seq": {
+        "campos": [
+            "id",
+            "nombre",
+            "area"
+        ],
+        "clave": "id",
+        "tipo": "SEQ",
+        "vector": null
+    }
+}
